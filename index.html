@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="discription" content="Do you want to travel? We have great offers for you. Let's travel together! ">
+	<meta name="keywords" content="mini group tours,cheap mini group tours,craft travel,trip,vacation,relax,yoga,trekking,cheap rest">
+	<title>Enjoy your bestvacation.com!</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="font/fontawesome/css/all.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="parallax" onload="changetext()">
+	<header class="header">
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+				<button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<i class="name-logo fa-solid fa-person-hiking"></i>nextvacation.com
+				</a>
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#scrollspyHeading1">Choose your style</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#scrollspyHeading2">Who we are</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#scrollspyHeading3">Questions</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#scrollspyHeading4">Map</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#scrollspyHeading5">Contacts</a>
+						</li>
+					</ul>
+					<form class="d-flex">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-info btn-dark text-white" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+		<div class="container header-logo">
+			<div class="header-name">
+				<h1 class="header-name__text"><font id="text"></font></h1>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="section-slide">
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="img/relax1.jpeg" class="d-block w-100 carousel-item__img" alt="relax image">
+						<div class="carousel-caption">
+							<h5 class="carousel-caption__title">Relax</h5>
+							<p class="carousel-caption__text">Holistic relaxation for body and soul</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="img/trekking1.jpg" class="d-block w-100 carousel-item__img" alt="trekking image">
+						<div class="carousel-caption d-inline">
+							<h5 class="carousel-caption__title">Trekking</h5>
+							<p class="carousel-caption__text">For people who love to hike and travel</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="img/yoga1.jpg" class="d-block w-100 carousel-item__img" alt="yoga image">
+						<div class="carousel-caption d-inline">
+							<h5 class="carousel-caption__title">Yoga</h5>
+							<p class="carousel-caption__text">Open your heart and find your bliss</p>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</section>
+		<section class="section-choice">
+			<div class="main-title">
+				<h3 class="main-title__text" id="scrollspyHeading1">Choose your style</h3>
+			</div>
+			<div class="container choice-block">
+				<div class="card img-fluid">
+					<img src="img/thailand1.jpg" class="card__img" alt="Thailand image">
+					<div class="card-body">
+						<h4 class="card-body__title">Relax</h4>
+						<h5 class="card-body__subtitle">Thailand</h5>
+						<p class="card-body__text">
+							<span class="col-6">Mounth: september</span>
+							<span class="col-6">Duration: 10 - 14 days</span>
+							<span class="col-6">Location: Koh Mat Sum</span>
+							<span class="col-6">Price: from 150 $</span>
+						</span>
+						<div class="choice__block-bottom">
+							<button type="button" class="btn btn-outline-info btn-dark text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Let's relaxation!</button>
+							<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Tour information request</h5>
+											<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+										</div>
+										<div class="modal-body">
+											<form>
+												<div class="mb-3">
+													<label class="form-label">Enter your Name</label>
+													<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+												</div>
+												<div class="mb-3">
+													<label class="form-label">Email address</label>
+													<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+												</div>
+												<div class="mb-3">
+													<label class="form-label">Phone number</label>
+													<input type="Phone" name="Phone" id="Phone" class="form-control input-lg" placeholder="+7(999)999-99-99">
+												</div>
+											</form>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+											<button type="button" class="btn btn-info btn-outline-warning text-white" data-bs-dismiss="modal">Send</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card img-fluid">
+					<img src="img/turkey1.jpg" class="card__img" alt="Turkey image">
+					<div class="card-body">
+						<h4 class="card-body__title">Trekking</h4>
+						<h5 class="card-body__subtitle">Turkey</h5>
+						<p class="card-body__text">
+							<span class="col-6">Mounth: June</span>
+							<span class="col-6">Duration: 7 - 10 days</span>
+							<span class="col-6">Location: Likya Yolu Rehberi</span>
+							<span class="col-6">Price: from 100 $</span>
+						</p>
+						<div class="choice__block-bottom">
+							<button type="button" class="btn btn-outline-info btn-dark text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Go trekking!</button>
+							<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Tour information request</h5>
+											<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+										</div>
+										<div class="modal-body">
+											<form>
+												<div class="mb-3">
+													<label class="form-label">Enter your Name</label>
+													<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+												</div>
+												<div class="mb-3">
+													<label class="form-label">Email address</label>
+													<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+												</div>
+												<div class="mb-3">
+													<label class="form-label">Phone number</label>
+													<input type="Phone" name="Phone" id="Phone" class="form-control input-lg" placeholder="+7(999)999-99-99">
+												</div>
+											</form>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+											<button type="button" class="btn btn btn-info btn-outline-warning text-white" data-bs-dismiss="modal">Send</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card img-fluid">
+					<img src="img/sri1.jpg" class="card__img" alt="SriLanka image">
+					<div class="card-body">
+						<h4 class="card-body__title">Yoga Tour</h4>
+						<h5 class="card-body__subtitle">Sri Lanka</h5>
+						<p class="card-body__text">
+							<span class="col-6">Mounth: February</span>
+							<span class="col-6">Duration: 11 - 14 days</span>
+							<span class="col-6">Location: Ahangama</span>
+							<span class="col-6">Price: from 190 $</span>
+						</p>
+						<div class="choice__block-bottom">
+							<button type="button" class="btn btn-outline-info btn-dark text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Start yoga time!</button>
+							<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Tour information request</h5>
+											<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+										</div>
+										<div class="modal-body">
+											<form>
+												<div class="mb-3">
+													<label class="form-label">Enter your Name</label>
+													<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+												</div>
+												<div class="mb-3">
+													<label class="form-label">Email address</label>
+													<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+												</div>
+												<div class="mb-3">
+													<label class="form-label">Phone number</label>
+													<input type="Phone" name="Phone" id="Phone" class="form-control input-lg" placeholder="+7(999)999-99-99">
+												</div>
+											</form>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+											<button type="button" class="btn btn-info btn-outline-warning text-white" data-bs-dismiss="modal">Send</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card img-fluid">
+					<img src="img/soon1.jpg" class="card__img" alt="SriLanka image">
+					<div class="card-body">
+						<h4 class="card-body__title">Coming soon...</h4>
+						<h5 class="card-body__subtitle"></h5>
+						<p class="card-body__text">
+							<span class="col-6"></span>
+							<span class="col-6"></span>
+							<span class="col-6"></span>
+							<span class="col-6"></span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-about">
+			<div class="main-title">
+				<h3 class="main-title__text" id="scrollspyHeading2">Who we are</h3>
+			</div>
+			<div class="container about-container">
+				<div class="row about-row">
+					<div class="about-block col-12 col-md-4">
+						<img class="about-block__img" src="img/who1.jpg" alt="people1 image">
+						<h3 class="about-block__info">Nice to meet</h3>
+						<p class="about-block__text">We are a friendly team of ambitious people who love traveling...</p>
+					</div>
+					<div class="about-block col-12 col-md-4">
+						<img class="about-block__img" src="img/who2.jpg" alt="people2 image">
+						<h3 class="about-block__info">In travel we trust</h3>
+						<p class="about-block__text">We are sure in any adventure you can find friends. Adventures unite and teach us to help people...</p>
+					</div>
+					<div class="about-block col-12 col-md-4">
+						<img class="about-block__img" src="img/who3.jpg" alt="people3 image">
+						<h3 class="about-block__info">Are you with us</h3>
+						<p class="about-block__text">We are waiting for you! You can become part of the team...</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section__faq">
+			<div class="main-title">
+				<h3 class="main-title__text" id="scrollspyHeading3">Most asked questions</h3>
+			</div>
+			<div class="container faq__container">
+				<div class="accordion" id="accordionPanelsStayOpenExample">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="panelsStayOpen-headingOne">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+								About COVID-19
+							</button>
+						</h2>
+						<div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+							<div class="accordion-body">
+								<strong>All information about COVID-19.</strong>All our tours are for fully vaccinated tourists only. We do not sell tours to closed countries! If the entry rules have changed after the purchase of the tour, the money will be returned. We are on your side, because we are traveling with you and we want to be safe. 
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+								Documents
+							</button>
+						</h2>
+						<div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+							<div class="accordion-body">
+								<strong>All about your documents.</strong>We prepare all necessary documents for the trip. You have nothing to worry about. We will check all the documents several times so that you do not forget anything. Your documents are not passed on to third parties. 
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="panelsStayOpen-headingThree">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+								Insurance
+							</button>
+						</h2>
+						<div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+							<div class="accordion-body">
+								<strong>Travel insurance information.</strong>High coverage insurance is a must for any tour. We help to make insurance, just write to us about it. If you have chosen "Trekking" the insurance must include an extreme package. 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-map">
+			<div class="main-title">
+				<h3 class="main-title__text" id="scrollspyHeading4">Map</h3>
+			</div>
+			<div class="container map-container">
+				<iframe class="map-block" src="https://www.google.com/maps/d/u/0/embed?mid=1txWSvjZ35YGODsARkyl8-oQ5OT3ZthXO&ehbc=2E312F" width="640" height="480"></iframe>
+			</div>
+		</section>
+		<section class="section-contact">
+			<div class="main-title">
+				<h3 class="main-title__text" id="scrollspyHeading5">Contact us</h3>
+			</div>
+			<div class="container contact-container">
+				<div class="mb-3">
+					<label class="form-label">Name</label>
+					<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+				</div>
+				<div class="mb-3">
+					<label class="form-label">Email address</label>
+					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+				</div>
+				<div class="mb-3">
+					<label class="form-label">Your question or suggestions</label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="..."></textarea>
+				</div>
+				<div class="mb-3">
+					<button class="btn btn-outline-info btn-dark text-white" type="submit" value="submit">SEND</button>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container footer-container">
+			<div class="row footer-block">
+				<div class="footer-block__item col-md-4">
+					<a class="navbar-brand" href="#">
+						<i class="name-logo fa-solid fa-person-hiking"></i>nextvacation.com
+					</a>
+				</div>
+				<div class="footer-block__item col-md-4">
+					<button type="button" class="btn btn-outline-info btn-dark text-white" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Cookie policy</button>
+					<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="staticBackdropLabel">About cookies</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							We use cookies and other tracking technologies to improve your browsing experience on our site, show personalized content and targeted ads, analyze site traffic, and understand where our audiences come from.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+						</div>
+						</div>
+					</div>
+					</div>
+				</div>
+				<div class="footer-block__item col-md-4">
+					<a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+				</div>
+				<p class="copyright">Golovanev Aleksei © 2022</p>
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+	<script>
+		"use strict";
+		let chr = -1;
+		let txt = 'Your best next vacation';
+		let l = txt.length;
+		let p = "_";
+
+		function changetext(){
+			chr++;
+			let t = document.all["text"].innerHTML;
+			let tt = t.substring(0,t.length-p.length);
+			if(txt.charAt(chr)!="<"){
+				document.all["text"].innerHTML= tt + txt.charAt(chr) + p;
+			}
+			else {
+				document.all["text"].innerHTML= tt + txt.substring(chr, chr+4) + p;
+				chr=chr+3;
+			}
+			setTimeout("changetext()", 40);
+		}
+
+		function str(num) {
+			let s = "";
+			for(let i=0; i<num; i++){
+				s = s + " ";
+			}
+			return s; 
+		}
+	</script>
+</body>
+</html>
