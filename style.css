@@ -266,6 +266,10 @@ color: black;
 .copyright {
 	font-size: 11px;
 }
+.copyright-link {
+	text-decoration: none;
+	color: black;
+}
 @media (max-width: 576px) {
 	.nav-link {
 		font-size: 25px;
